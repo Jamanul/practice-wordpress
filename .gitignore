@@ -1,0 +1,36 @@
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if you're using build tools like Gulp, Webpack, etc.)
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Compiled CSS/JS (optional, if you compile from SCSS/TS)
+dist/
+build/
+*.min.js
+*.min.css
+
+# Editor/project-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Composer dependencies (if used)
+vendor/
+composer.lock
+
+# Logs and environment files
+.env
+.env.local
+*.log
+
+# Cache and temp files
+*.zip
+*.tar.gz
+*.tmp
+.cache/
